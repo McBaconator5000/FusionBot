@@ -1,9 +1,15 @@
 # FusionBot
 
-npm required 
+npm required
+
 discord.js
+
 discord.js-commando
+
 url-exists
+
+image-downloader
+
 
 Run with:
 node --harmony .
