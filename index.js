@@ -49,7 +49,7 @@ bot.on('message', (message) => {
         if(checkFileExistsSync('./images/'+headNumber+'X'+bodyNumber+'X0.png')){
             bot.user.setAvatar('./images/'+headNumber+'X'+bodyNumber+'X0.png')
             .then( user => {
-                message.channel.send("How do you like me new look?");
+                message.channel.send("How do you like my new look?");
             })
             .catch(err => {
                 message.channel.send("You might be changing my avatar too fast. Try again in a bit.");
