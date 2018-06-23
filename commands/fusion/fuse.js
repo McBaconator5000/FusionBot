@@ -46,12 +46,12 @@ class FuseCommand extends commando.Command{
 
         //test to see if a number is used or if the pokemon name is used
         if(isNaN(head)){
-            var headNumber = pokemon[head];
+            var headNumber = pokemon[head.toLowercase()];
         }else{
             var headNumber = head;
         }
         if(isNaN(body)){
-           var bodyNumber = pokemon[body];
+           var bodyNumber = pokemon[body.toLowercase()];
         }else{
             var bodyNumber = body;
         }
