@@ -24,6 +24,7 @@ bot.registry.registerGroup('fusion', 'Fusion');
 bot.registry.registerDefaults();
 bot.registry.registerCommandsIn(__dirname + '/commands');
 
+bot.on('error', console.error);
 
 //have to do set avatar here for some reason????
 bot.on('message', (message) => {
